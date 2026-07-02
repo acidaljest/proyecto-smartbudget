@@ -1,0 +1,25 @@
+// GRID RESPONSIVO
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 $spacing-md;
+}
+
+.grid-3 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: $spacing-lg;
+
+  @include respond-to(tablet) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  @include respond-to(mobile) {
+    grid-template-columns: 1fr;
+  }
+}
+
+.section {
+  padding: $spacing-xl 0;
+}

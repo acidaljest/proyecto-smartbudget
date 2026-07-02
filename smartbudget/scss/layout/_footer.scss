@@ -1,0 +1,13 @@
+// FOOTER
+
+.footer {
+  background-color: $color-primary;
+  color: $color-text-light;
+  text-align: center;
+  padding: $spacing-lg;
+  margin-top: $spacing-xl;
+
+  &__text {
+    font-size: $font-xs;
+  }
+}
