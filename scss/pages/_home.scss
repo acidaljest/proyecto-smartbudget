@@ -1,0 +1,22 @@
+// PÁGINA HOME - estilos específicos
+
+.features {
+  background-color: $color-bg;
+  text-align: center;
+
+  &__title {
+    font-size: $font-xl;
+    margin-bottom: $spacing-lg;
+    color: $color-primary;
+  }
+}
+
+.pricing {
+  background-color: $color-white;
+  text-align: center;
+
+  &__title {
+    font-size: $font-xl;
+    margin-bottom: $spacing-lg;
+  }
+}
